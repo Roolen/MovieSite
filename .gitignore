@@ -129,4 +129,3 @@ nb-configuration.xml
 /phpunit*.xml
 
 # NPM
-node_modules/

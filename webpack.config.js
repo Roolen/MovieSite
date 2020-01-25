@@ -36,6 +36,11 @@ module.exports = {
                       { loader: 'css-loader' },
                       { loader: 'sass-loader' }]
             },
+
+            {
+                test: /\.pug$/,
+                loader: 'pug-loader'
+            },
         ]
     },
 
