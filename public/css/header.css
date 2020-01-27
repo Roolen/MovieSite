@@ -6,12 +6,71 @@
 .header {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 70%;
   height: 68px;
   margin: auto;
   border-bottom: solid 1px #1B1D2A;
 }
 
+.header-menu {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+  }
+
+  .header .settings-button {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .header .logo {
+    margin-left: 20px;
+  }
+
+  .header .header-link {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-link {
+    display: none;
+  }
+
+  .header .settings-button {
+    margin-left: 0px;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .header .header-menu {
+    display: block;
+    position: relative;
+    margin-right: 19px;
+    background: none;
+    color: #1B1D2A;
+    font-family: "Blanch";
+    font-size: 32px;
+    line-height: 35px;
+    border: none;
+    box-shadow: none;
+  }
+  .header .header-menu::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    top: 55%;
+    left: calc(50% - 10px);
+    font-family: "FontAwesome";
+    font-size: 16px;
+  }
+}
 .logo img {
   padding-top: 6px;
 }
@@ -30,10 +89,13 @@
   width: 24px;
   height: 24px;
 }
-
 .settings-button::after {
+  display: block;
   content: "";
+  width: 24px;
+  height: 24px;
   font-family: FontAwesome;
   font-size: 24px;
+  text-align: center;
   cursor: pointer;
 }

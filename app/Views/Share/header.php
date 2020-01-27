@@ -17,6 +17,7 @@
 <body>
     <header class="header">
         <div class="logo"><img src="<?= base_url(); ?>/images/Logo.svg" alt="logo"/></div>
+        <button class="header-menu" id="header_menu">Новости</button>
         <a class="header-link" href="#"> <div id="i_am_link">Я</div> </a>
         <a class="header-link" href="#"> <div id="news_link">Новости</div> </a>
         <a class="header-link" href="#"> <div id="search_link">Поиск</div> </a>
