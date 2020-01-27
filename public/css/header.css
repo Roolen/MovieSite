@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Awesome-Solid";
+  src: "../fonts/fa-solid-900.ttf";
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 68px;
+  margin: auto;
+  border-bottom: solid 1px #1B1D2A;
+}
+
+.logo img {
+  padding-top: 6px;
+}
+
+.header-link {
+  margin-left: 80px;
+  font-family: "Blanch";
+  font-size: 32px;
+  line-height: 35px;
+  color: #1B1D2A;
+  text-decoration: none;
+}
+
+.settings-button {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+}
+
+.settings-button::after {
+  content: "";
+  font-family: FontAwesome;
+  font-size: 24px;
+  cursor: pointer;
+}

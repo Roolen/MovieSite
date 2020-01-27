@@ -28,7 +28,7 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "build": "webpack -p --progress --mode production"
+    "build": "sass --no-source-map public/css/header.scss public/css/header.css"
   },
   "repository": {
     "type": "git",
