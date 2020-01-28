@@ -11,3 +11,7 @@
 body {
     background: #E9E9E9;
 }
+
+#app {
+    min-height: calc(100vh - 150px - 70px);
+}

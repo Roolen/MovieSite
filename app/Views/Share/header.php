@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?= base_url(); ?>/css/reset.css"/>
     <link rel="stylesheet" href="<?= base_url(); ?>/css/global.css"/>
     <link rel="stylesheet" href="<?= base_url(); ?>/css/header.css"/>
+    <link rel="stylesheet" href="<?= base_url(); ?>/css/footer.css"/>
 
     <script src="<?= base_url(); ?>/js/vue.min.js"></script>
 </head>
