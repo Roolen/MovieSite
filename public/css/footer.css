@@ -3,14 +3,9 @@
   font-family: "Amsterdam";
   src: url("../fonts/amsterdam.otf");
 }
-#app {
-  position: relative;
-  min-height: calc(100vh - 150px - 70px);
-}
-
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   width: 70%;
   height: 150px;
@@ -37,9 +32,12 @@
 
 .copyright {
   order: 2;
+  margin-right: 50px;
+  width: 200px;
   font-family: "Amsterdam";
-  font-size: 22px;
+  font-size: 18px;
   color: #1B1D2A;
+  text-align: center;
 }
 
 .social-link {
